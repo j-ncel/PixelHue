@@ -60,6 +60,7 @@ pixel-hue/
 ├── main.py
 ├── palette_extractor.py
 ├── koala.png
+├── requirements.txt
 ├── README.md
 ```
 

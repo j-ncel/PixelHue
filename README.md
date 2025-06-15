@@ -1,3 +1,5 @@
+[![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20Me%20a%20Coffee&emoji=☕&slug=jncel)](https://coff.ee/jncel)
+
 # PixelHue Color Palette Generator 🎨
 
 PixelHue is a simple Streamlit web app that extracts a color palette from any uploaded image using K-Means clustering.  

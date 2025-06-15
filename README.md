@@ -1,4 +1,6 @@
-[![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20Me%20a%20Coffee&emoji=☕&slug=jncel)](https://coff.ee/jncel)
+<a href="https://coff.ee/jncel">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="170" height="" alt="Buy Me a Coffee">
+</a>
 
 # PixelHue Color Palette Generator 🎨
 

@@ -30,6 +30,12 @@ It helps designers, developers, and anyone interested in color to quickly genera
 2. **Install dependencies:**
 
    ```bash
+   pip install requirements.txt
+   ```
+
+   or
+
+   ```bash
    pip install streamlit pillow scikit-learn numpy
    ```
 

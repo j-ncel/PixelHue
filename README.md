@@ -72,6 +72,15 @@ pixel-hue/
 - `palette_extractor.py` — Color extraction logic.
 - `koala.png` — Default image
 
+## Linked Project
+
+Pixel Hue on Playstore. The idea was remade to Android Flutter app.
+You can try it here:
+
+<a href="https://play.google.com/store/apps/details?id=com.pixelhue.app">
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" width="200"/>
+</a>
+
 ## Credits
 
 - Koala sample picture (Image by <a href="https://pixabay.com/users/souandresantana-61090/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7322174">André Santana Design André Santana</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7322174">Pixabay</a>)

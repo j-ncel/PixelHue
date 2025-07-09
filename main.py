@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 from palette_extractor import extract
-
+from template import template
 
 DEFAULT_IMG = "koala.png"
 
@@ -9,8 +9,11 @@ st.set_page_config(page_title="PixelHue", page_icon="🎨", layout="centered")
 
 st.title(":rainbow[PixelHue Palette Generator] 🎨")
 
+st.markdown(template.css, unsafe_allow_html=True)
+
+
 file = st.file_uploader("Upload Image", type=[
-                        "jpg", "png", "jpeg", "bmp", "gif", "webp"], label_visibility="collapsed")
+    "jpg", "png", "jpeg", "bmp", "gif", "webp"], label_visibility="collapsed")
 st.write("")
 maincol = st.columns(2)
 
@@ -25,9 +28,14 @@ with maincol[1]:
         "Number of Colors", step=1, min_value=1, value=9, key="numbers")
     for i, color in enumerate(extract(img, numbers)):
         with cols[i % 3]:
+            html_code_for_swatch = template.color_swatch_template.substitute(
+                color=color)
+
+            st.components.v1.html(html_code_for_swatch, height=120)
+
             st.markdown(
-                f'<div style="width:100px;height:100px;background:{color};"></div>', unsafe_allow_html=True)
-            st.write(color)
+                f'<p class="color-text">{color}</p>', unsafe_allow_html=True)
+
 
 st.markdown("""
 <a href="https://coff.ee/jncel" target="_blank">

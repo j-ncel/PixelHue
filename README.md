@@ -1,5 +1,5 @@
 <a href="https://coff.ee/jncel">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="120" height="" alt="Buy Me a Coffee">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="100" height="" alt="Buy Me a Coffee">
 </a>
 
 # PixelHue Color Palette Generator 🎨
